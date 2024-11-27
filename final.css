@@ -1,0 +1,196 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: normal;
+    background: #F5F5F5;
+}
+
+.info h1{
+    text-align: center;
+}
+.photo-container h1{
+    text-align: center;
+}
+
+a {
+    color: rgba(114, 114, 114, 0.96);
+    text-decoration: none;
+}
+
+
+body h1, h2, h3{
+    color: #808000;
+}
+
+.photo-container h1{
+    text-align: center;
+}
+
+.svyaz {
+    border: 5px solid #FFF5EE;
+    padding: 15px;
+    background:  #DCDCDC;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.card table {
+    border: 5px solid #FFF5EE;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.container{
+    max-width: 850px;
+    margin: auto;
+
+}
+
+.photo1, .photo2{
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px #8080009b;
+    margin-bottom: 10px
+}
+
+.photo1:hover, .photo2:hover {
+    box-shadow: 4px 4px 4px #fd40d1be;
+}
+
+.photo1{
+    width: 150px;
+}
+
+.photo2{
+    width: 200px;
+}
+
+.btn{
+    border-radius: 10px;
+    border: none;
+    width: 80px;
+    height: 35px;
+    box-shadow: 4px 4px 4px #7171035d;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transition: background-color 0.3s;
+    box-shadow: 4px 4px 4px #fd40d1be; 
+}
+
+a:hover {
+    color: #808000c8; 
+    transition: color 0.3s;
+}
+
+.card table th,
+.card table td {
+    padding: 10px;
+    border: 3px solid #ccc;
+    text-align: left;
+}
+
+.card table tbody tr:nth-child(1):hover{
+    color: #c7079a;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.card table tbody tr:nth-child(2):hover{
+    color: #ca0000;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.card table tbody tr:nth-child(3):hover{
+    color: #008d9f;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.list li{
+
+    margin-bottom: 10px;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+
+
+.photo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.photo-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.info-text {
+    margin-top: 5px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    .photo-container {
+        margin-bottom: 10px;
+    }
+
+    .info-text {
+        font-size: 0.9em;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    table {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    .card.svyaz {
+        padding: 10px;
+    }
+
+    .card.svyaz input, .card.svyaz textarea {
+        padding: 8px;
+    }
+
+    .card.svyaz .btn {
+        padding: 8px;
+    }
+}
+
+
